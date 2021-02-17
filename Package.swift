@@ -17,7 +17,7 @@ import PackageDescription
 
 let package = Package(
     name: "soto",
-    platforms: [.iOS(.v12), .tvOS(.v12), .watchOS(.v5)],
+    platforms: [.iOS(.v13), .tvOS(.v12), .watchOS(.v5)],
     products: [
         .library(name: "SotoACM", targets: ["SotoACM"]),
         .library(name: "SotoACMPCA", targets: ["SotoACMPCA"]),
